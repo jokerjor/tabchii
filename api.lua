@@ -8,10 +8,10 @@ serpent = (loadfile "./libs/serpent.lua")()
 -------------------------------
 database = dofile('./libs/redis.lua')
 -------------------------------
-api_id = 406039147
+api_id = 441215218
 local base_api = "https://maps.googleapis.com/maps/api"
 
-config_sudo = {366831302}
+config_sudo = {306400966}
 -------------------------------
 function is_fulsudo(msg)
   local var = false
@@ -357,7 +357,7 @@ local function run_bash(str)
 end
 --------------------------------
 function sendinline(chat_id_,text,keyboard)
-local bot = 'Token'
+local bot = '441215218:AAFSgL6M4IsnIaUMMQr73i411Rt1CkT5nTk'
 local url = 'https://api.telegram.org/bot'..bot
 if keyboard then
 
