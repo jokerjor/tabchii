@@ -21,7 +21,7 @@ chats = {}
 -------------------------------
 datebase = dofile('./libs/redis.lua')
 -------------------------------
-config_sudo = {363936960}
+config_sudo = {306400966}
 
 -------------------------------
 tabchis = datebase:get('bot'..tabchi_id..'id')
